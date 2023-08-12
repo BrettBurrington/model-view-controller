@@ -1,1 +1,1 @@
-# model-view-controller
+config>connections.js           conrtollers>api>homeRoutes.js, index.js        db>chema.sql             js>login.js, logout.js       models>comment.js, index.js, post.js, user.js             node_modules               public>style.css          utils>auth.js         Views/layouts> dashboard.handlebars, homepage.handlebars, layout.handlebars             .emv             .eslintc.json        .exlintignore        .gitignore   app.js          index.js       package-lock.json        package.json          readME.md
