@@ -1,16 +1,16 @@
 const Sequelize = require('sequelize');
 
-// Replace these with your actual database credentials
-const DB_NAME = 'your_database_name';
-const DB_USER = 'your_database_user';
-const DB_PASSWORD = 'your_database_password';
-const DB_HOST = 'localhost'; // Change if your database is hosted elsewhere
-const DB_PORT = 3306; // Change if your database is using a different port
 
-// Create a Sequelize instance and establish a connection to the database
-const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
+const DB_NAME = 'blog_db';
+const DB_USER = 'root';
+const DB_PASSWORD = 'password';
+const DB_HOST = 'localhost'; 
+const DB_PORT = 3306; 
+
+
+const sequelize = new Sequelize(blog_db, root, password, {
   host: DB_HOST,
-  dialect: 'mysql', // Change to your preferred database dialect
+  dialect: 'mysql',
   port: DB_PORT,
 });
 
